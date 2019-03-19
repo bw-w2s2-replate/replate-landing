@@ -1,0 +1,27 @@
+h1 {
+    // margin-bottom: ;
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: @border;
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 0 20px;
+        font-size: 1.2rem;
+        padding-bottom: 20px
+    }
+
+    @media @mobile {
+        justify-content: center;
+        margin-top: 30px;
+    }
+}

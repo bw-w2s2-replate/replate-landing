@@ -172,6 +172,31 @@ img {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  nav {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 500px) {
   .home {
     margin: 0 20px;
   }
@@ -271,4 +296,7 @@ img {
   text-align: center;
   cursor: pointer;
   width: 200px;
+}
+html {
+  background-color: green;
 }
