@@ -43,6 +43,7 @@
         margin-top: 20px;
         width: 48%;
         padding-right: 1%;
+        padding-left: 2%;
         @media @mobile {
           background-color: purple;
           width: 100%;
@@ -50,10 +51,11 @@
       }
   
       .img-content {
-        background-color: green;
+        
         margin-top: 30px;
         width: 40%;
         padding-left: 1%;
+        padding-right: 2%;
 
   
         img {
@@ -78,7 +80,7 @@
   
       .img-content {
         padding-right: 1%;
-        padding-left: 0;
+        padding-left: 2%;
         @media @mobile {
           display: block;
           margin: 2% auto;
@@ -96,6 +98,8 @@
       img {
         border-radius: 10px;
         max-width: 50%;
+        display: block;
+        margin: auto;
         @media @mobile {
           display: block;
           margin: auto;
@@ -109,9 +113,14 @@
       border-top: 2px solid @navigation-border;
       display: flex;
       justify-content: space-between;
+    
       
       @media @mobile {
         flex-wrap: wrap;
+      }
+      
+      .options {
+        padding: 0 20px;
       }
   
       .destination {

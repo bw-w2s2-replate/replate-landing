@@ -236,6 +236,7 @@ nav a {
   margin-top: 20px;
   width: 48%;
   padding-right: 1%;
+  padding-left: 2%;
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
@@ -244,10 +245,10 @@ nav a {
   }
 }
 .home .content-section .img-content {
-  background-color: green;
   margin-top: 30px;
   width: 40%;
   padding-left: 1%;
+  padding-right: 2%;
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -266,7 +267,7 @@ nav a {
 }
 .home .inverse-content .img-content {
   padding-right: 1%;
-  padding-left: 0;
+  padding-left: 2%;
 }
 @media (max-width: 500px) {
   .home .inverse-content .img-content {
@@ -287,6 +288,8 @@ nav a {
 .home .content-destination img {
   border-radius: 10px;
   max-width: 50%;
+  display: block;
+  margin: auto;
 }
 @media (max-width: 500px) {
   .home .content-destination img {
@@ -304,6 +307,9 @@ nav a {
   .home .content-pick {
     flex-wrap: wrap;
   }
+}
+.home .content-pick .options {
+  padding: 0 20px;
 }
 .home .content-pick .destination {
   width: 30%;
