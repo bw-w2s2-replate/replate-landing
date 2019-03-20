@@ -201,8 +201,11 @@ nav a {
     margin: 0 20px;
   }
 }
-.home header .fun-header {
-  margin-top: 20px;
+.home header img {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 500px) {
   .home header {
@@ -237,7 +240,7 @@ nav a {
 }
 .home .content-section .img-content {
   margin-top: 30px;
-  width: 48%;
+  width: 40%;
   padding-left: 1%;
 }
 .home .content-section .img-content img {
@@ -250,7 +253,6 @@ nav a {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -266,6 +268,7 @@ nav a {
 }
 .home .content-destination img {
   border-radius: 10px;
+  max-width: 50%;
 }
 .home .content-pick {
   padding-top: 30px;
