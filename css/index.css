@@ -201,12 +201,8 @@ nav a {
     margin: 0 20px;
   }
 }
-.home header h2 {
-  font-weight: bold;
-  font-size: 3rem;
-}
 .home header p {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .home header img {
   max-width: 60%;
@@ -303,31 +299,7 @@ nav a {
     margin: auto;
   }
 }
-.home .content-pick {
-  padding-top: 30px;
-  border-top: 2px solid #C0C0C0;
-  display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 500px) {
-  .home .content-pick {
-    flex-wrap: wrap;
-  }
-}
-.home .content-pick .options {
-  padding: 0 20px;
-}
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
-}
-@media (max-width: 500px) {
-  .home .content-pick .destination {
-    width: 80%;
-    margin: 0 auto 30px;
-  }
-}
-.home .content-pick .btn {
+.home .content-destination img .btn {
   padding: 5%;
   background-color: #17A2B8;
   color: #FFFFFF;
