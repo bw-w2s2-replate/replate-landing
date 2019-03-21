@@ -204,6 +204,7 @@ nav a {
 .home header p {
   font-size: 2.5rem;
   text-align: center;
+  margin: 0 100px;
 }
 .home header img {
   max-width: 60%;
