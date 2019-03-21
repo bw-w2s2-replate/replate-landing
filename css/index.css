@@ -201,6 +201,13 @@ nav a {
     margin: 0 20px;
   }
 }
+.home header h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.home header p {
+  font-size: 3rem;
+}
 .home header img {
   max-width: 60%;
   display: block;
@@ -232,7 +239,6 @@ nav a {
   }
 }
 .home .content-section .text-content {
-  background-color: green;
   margin-top: 20px;
   width: 48%;
   padding-right: 1%;

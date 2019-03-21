@@ -89,11 +89,11 @@ table {
     padding: 0 20px 25px;
     border: 1px solid lightblue;
     border-radius: 10px;
-    background-color: rgb(235, 187, 168);
+    background-color: lightblue(238, 245, 137);
     position: relative;
     height: 50px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px lightsalmon;
+    box-shadow: 2px 2px 2px rgb(122, 180, 255);
 }
 
 .bio h2 {
