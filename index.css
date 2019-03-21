@@ -165,8 +165,10 @@
     padding-bottom: 10px;
   }
   img {
-    max-width: 100%;
-    height: auto;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    background-color: darkslategrey;
   }
   .container {
     max-width: 800px;
@@ -232,7 +234,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 0px;
-    /* border-top: 2px dashed #C0C0C0; */
+    border-top: 2px solid #C0C0C0;
   }
   @media (max-width: 500px) {
     .home .content-section {

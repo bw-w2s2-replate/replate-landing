@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+.menu-button {
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+    width: 100px;
+    background-color: white;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    width: 350px;
+    height: 100vh;
+    background-color: #15b271;
+    border: 1px solid #004D40;
+    border-left: none;
+    border-bottom: none;
+    z-index: 2;
+}
+  
+.menu ul li {
+    list-style-type: none;
+    font-size: 32px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.menu--open {
+    display: block;
+}
+
+.bios {
+    margin-top: 95px;
+}
+
+.bio {
+    margin: 20px 10%;
+    padding: 0 20px 25px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue(238, 245, 137);
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgb(122, 180, 255);
+}
+
+.bio h2 {
+    font-size: 28px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.bio .title {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bio .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bio .aboutBtn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%);
+    background-color: purple;
+}
+
+.bio-open {
+    height: 400px;
+}
+
+  /* It is important to note, you will not be writing any CSS in this file*/
+  .header {
+    width: 100%;
+    height: 75px;
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #fffef7;
+  }
