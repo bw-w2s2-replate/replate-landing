@@ -7,6 +7,8 @@
     
       p {
         font-size: 2.5rem;
+        text-align: center;
+        margin: 0 100px;
       }
       //  .fun-header {
       //   margin-top: 20px;
@@ -23,19 +25,20 @@
       
     }
     .content-section {
-      
+      // background-color: #a4bee8;
       margin: 30px 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       margin-top: 0px;
-      border-top: 2px solid @silver;
+      // border-top: 2px solid @silver;
       @media @mobile {
         flex-direction: column;
         width: 100%;
       }
      
       .inverse-content {
+        
         @media mobile {
           flex-direction: column;
         }
@@ -47,6 +50,8 @@
         width: 48%;
         padding-right: 1%;
         padding-left: 2%;
+        display: flex;
+        align-items: center;
         @media @mobile {
           background-color: purple;
           width: 100%;
@@ -98,6 +103,10 @@
         width: 100%;
         margin: 1%;
       }
+      h2 {
+        display: flex;
+        justify-content: center;
+      }
       img {
         border-radius: 10px;
         max-width: 50%;
@@ -109,7 +118,9 @@
         }
       }
       .btn {
-        .custom-btn(5%, @button-bg, @main-bg);
+        .custom-btn(2%, @button-bg, white);
+        display: block;
+        margin: 50px auto;
        
      }
     }
