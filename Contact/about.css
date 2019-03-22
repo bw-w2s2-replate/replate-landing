@@ -52,7 +52,7 @@ table {
     left: 30px;
     cursor: pointer;
     width: 100px;
-    background-color: white;
+    background-color: #f9c070;
 }
 
 .menu {
@@ -74,14 +74,17 @@ table {
     font-size: 32px;
     padding: 30px 0;
     text-align: center;
+    color: crimson;
 }
 
 .menu--open {
     display: block;
+    background-color: #f9c070;
 }
 
 .bios {
     margin-top: 95px;
+    
 }
 
 .bio {
@@ -94,7 +97,7 @@ table {
     border-radius: 10px;
     background-color: lightblue(238, 245, 137);
     position: relative;
-    height: 50px;
+    height: 100px;
     overflow: hidden;
     box-shadow: 2px 2px 2px rgb(122, 180, 255);
 }
@@ -109,33 +112,50 @@ table {
 .bio img {
     padding: 20px;
     width: 250px;
+    margin-top: 42px;
+    border-radius: 45px;
 
+}
+
+#jen {
+    width: 200px;
 }
 
 .bio .title {
     margin: 0;
     font-size: 14px;
+    line-height: 1.4rem;
 }
 
 .bio .close {
     position: absolute;
     top: 10px;
     right: 10px;
+    
+}
+
+.bio p {
+    line-height: 1.2rem;
+}
+
+.bio address {
+    line-height: 1.6rem;
 }
 
 .bio .aboutBtn {
     position: absolute;
     bottom: 0;
     left: 50%;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     cursor: pointer;
     transform: translate(-50%);
-    background-color: purple;
+    background-color: #c4edf2;
 }
 
 .bio-open {
     height: 470px;
+    background-color: #c4edf2;
 }
 
   /* It is important to note, you will not be writing any CSS in this file*/
@@ -160,5 +180,5 @@ table {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', sans-serif;
-    background-color: #fffef7;
+    background-color: white;
   }
