@@ -318,3 +318,8 @@ nav a {
   display: block;
   margin: 50px auto;
 }
+.home .content-destination .btn:hover {
+  background-color: white;
+  color: white;
+  border: 1px solid purple;
+}
